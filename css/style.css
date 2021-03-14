@@ -347,8 +347,41 @@ template {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.68); }
 
-.hero__order {
-  position: relative; }
+.hero {
+  position: relative;
+  width: 1114px;
+  height: 315px;
+  margin: 272px 0 0 321px;
+  font-weight: 700; }
+  .hero__img {
+    margin-top: -15px;
+    position: absolute; }
+  .hero__button {
+    width: 396px;
+    height: 111px;
+    background: conic-gradient(from 180deg at 50% 50%, #E5AB4A -54.38deg, #FEE72E 63.75deg, #E9C54B 131.25deg, #E5AB4A 305.62deg, #FEE72E 423.75deg);
+    box-shadow: inset 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 70px;
+    font-size: 24px;
+    margin-right: 41px; }
+    .hero__button:hover {
+      cursor: pointer; }
+  .hero__text {
+    font-size: 72px;
+    color: #ffffff; }
+  .hero__order {
+    position: relative; }
+
+.hero__text__big {
+  margin: 1rem 0; }
+
+.hero__text__small {
+  font-size: 42px;
+  margin: 2rem 0;
+  color: #FEFEFEFF; }
+
+.text__yellow {
+  color: #EEB148FF; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
