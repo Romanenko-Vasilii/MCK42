@@ -1,0 +1,49 @@
+.header
+  height: 100vh
+  background: url('../img/hero-bg-3.jpg') no-repeat center / cover
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+    left: 0
+    top: 0
+    background-color: rgba(0, 0, 0, 0.57)
+  &__menu
+    padding-top: 1rem
+    position: relative
+    display: flex
+    justify-content: space-around
+    // line-height: 23px
+.menu
+  font-size: 18px
+  font-weight: 700
+  &__label
+  &__nav
+    padding-top: 64px
+    font-weight: 700
+  &__phone
+    color: $white
+    padding-top: 54px
+    // font-size: 18px
+  .phone
+    &__number
+      margin: 0
+.nav
+  &__item
+    text-decoration: none
+    color: $white
+    font-size: 18px
+    margin-right: 4rem
+    line-height: 23px
+    width: 136px
+    height: 26px
+    padding: 3px 25px
+    &:hover
+      cursor: pointer
+      background-color: $grey
+.hero__order
+  position: relative
+      
+    
