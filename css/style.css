@@ -348,7 +348,7 @@ template {
     background-color: rgba(0, 0, 0, 0.68); }
 
 .hero {
-  position: relative;
+  position: absolute;
   width: 1114px;
   height: 315px;
   margin: 272px 0 0 321px;
@@ -411,3 +411,34 @@ img {
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
+
+.about__title {
+  font-size: 52px;
+  text-align: center;
+  padding: 5rem; }
+
+.about__content {
+  display: flex; }
+
+.content__info {
+  width: 50%;
+  padding: 61px 139px 106px 238px;
+  background-color: rgba(254, 208, 124, 0.52);
+  font-size: 20px; }
+
+.content__img {
+  width: 50%;
+  background: url("../img/content_img.jpg") no-repeat center/cover;
+  display: flex;
+  align-items: flex-end; }
+
+.content__text {
+  margin: 0 0 20px 0; }
+  .content__text--bold {
+    font-weight: 700; }
+
+.content__banner {
+  margin-bottom: -103px;
+  font-size: 36px;
+  background: linear-gradient(180deg, rgba(255, 167, 2, 0.56) 27.08%, rgba(226, 163, 55, 0.2352) 83.33%);
+  padding: 18px 45px; }
