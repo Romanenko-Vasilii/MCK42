@@ -1,4 +1,5 @@
 .header
+  width: 100%
   height: 100vh
   background: url('../img/hero-bg-3.jpg') no-repeat center / cover
   position: relative
@@ -20,6 +21,9 @@
   font-size: 18px
   font-weight: 700
   &__label
+    display: flex
+    justify-content: center
+    align-items: center
   &__nav
     padding-top: 64px
     font-weight: 700
@@ -45,13 +49,13 @@
       background-color: $grey
 .hero
   position: relative
-  width: 80%
+  width: 100%
   height: 80%
   font-weight: 700
   display: flex
   justify-content: center
   align-items: center
-  margin-left: -100px
+  // margin-left: -100px
   &__wrap
     position: absolute
   &__img
