@@ -462,16 +462,19 @@ img {
 
 .ceiling {
   display: flex;
+  justify-content: space-around;
   margin: 0 auto;
   width: 85%;
   max-height: 506px; }
   .ceiling__wrap {
     width: 50%; }
   .ceiling__img {
+    background: url("../img/ceiling__img.jpg") no-repeat center/cover;
     display: flex;
     margin: 0 auto;
-    max-width: 100%;
-    height: auto; }
+    width: 50%;
+    height: auto;
+    z-index: 99; }
   .ceiling__list {
     margin: 30px 0 0 50px; }
   .ceiling__title {
