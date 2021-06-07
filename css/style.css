@@ -469,14 +469,13 @@ img {
   .ceiling__wrap {
     width: 50%; }
   .ceiling__img {
-    background: url("../img/ceiling__img.jpg") no-repeat center/cover;
-    display: flex;
-    margin: 0 auto;
     width: 50%;
     height: auto;
     z-index: 99; }
   .ceiling__list {
-    margin: 30px 0 0 50px; }
+    margin: 00px 0 0 0px;
+    width: 50%;
+    padding-left: 150px; }
   .ceiling__title {
     font-size: 30px;
     padding-left: 16px; }
